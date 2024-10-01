@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Make the headings stand out with a border and background */
+.heading-bordered {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+    color: #007bff;
+}
+
+/* Style sections with borders and spacing */
+section {
+    padding: 2rem;
+    margin: 20px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Full-width image matching section widths */
+img {
+    border-radius: 8px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+
+/* Centering and styling each nav-item */
+.nav-item {
+    padding: 5px 15px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item .nav-link {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.nav-item:hover {
+    background-color: #007bff;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Style to make the image fit the section height */
+.section-image {
+    height: 100%; /* Fit the image to the height of its section */
+    max-height: 100%; /* Ensure the image does not overflow the section */
+    object-fit: cover; /* Ensure the image covers the height while maintaining aspect ratio */
+}
+
+/* Justify text in sections */
+section p, section ul {
+    text-align: justify;
+}
+
+
+/* Image responsive settings */
+img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto; /* Default: Maintain original height */
+    max-height: 70vh; /* Limit height to 60% of the viewport height */
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+}
+
